@@ -1,0 +1,132 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #a7d1a7;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #f4f6f7;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #4ea24e;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #f4f6f7;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #f4f6f7;
+    border-color: #fff;
+    background-color: #a7d1a7;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #f4f6f7;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #4ea24e;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/10.png");
+    text-align: center;
+    color: #f4f6f7;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 0px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #4ea24e;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #a7d1a7;
+}
+
+a:hover {
+    color: #4ea24e;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f4f6f7;
+    color: #242424;
+}
+
+.btn-primary {
+    color: #f4f6f7;
+    background-color: #a7d1a7;
+    border-color: #a7d1a7;
+}
+
+.btn-primary:hover {
+    border-color: #4ea24e;
+}
