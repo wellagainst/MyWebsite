@@ -55,7 +55,7 @@
 .jumbotron {
     background-image: url("../assets/10.PNG");
     text-align: center;
-    color: #f4f6f7;
+    /***color: #f4f6f7;***/
     padding: 3%;
     border-radius: 0px;
 }
